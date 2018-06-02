@@ -96,6 +96,16 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+a {
+  color: #DE978B;
+  text-decoration: none;
+}
+article {
+  text-align: justify;
+}
+* {
+  font-family: 'Raleway', sans-serif;
+}
 
 
 
