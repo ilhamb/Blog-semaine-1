@@ -96,21 +96,55 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+a {
+  color: #DE978B;
+  text-decoration: none;
+}
+article {
+  text-align: justify;
+}
+* {
+  font-family: 'Raleway', sans-serif;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FBFBFB;
+}
 
+li {
+    float: left;
+}
 
+li a {
+    display: block;
+    color: #DE978B;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
 
+li a:hover {
+    background-color: #F6F6F5;
+}
 
+.topnav-right {
+  float: right;
+}
 
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
-
-
-
-
-
-
-
-
-
+.container {
+    position: relative;
+    text-align: center;
+}
 
 
 /* ==========================================================================
